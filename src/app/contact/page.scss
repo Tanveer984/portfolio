@@ -1,0 +1,47 @@
+.contactContainer{
+    .title{
+        text-align: center;
+        margin-bottom: 100px;
+        padding: auto;
+        font-size: larger;
+    }
+    .contact_img_form{
+        display: flex;
+        align-items: center;
+        gap: 100px;
+        .item{
+            flex:1;
+            color: yellow;
+            position: relative;
+            height: 400px;
+            .contactImg{
+                object-fit: contain;
+                animation: move 3s infinite ease alternate ;
+            }
+            @keyframes move {
+                from{
+                    transform: translateY(-15px);
+                }
+                to{
+                    transform: translateY(0px) scale(1.05);
+                }
+            }
+        }
+        .textItem{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            .input,.textArea{
+                border: none;
+                outline: none;
+                border-radius: 10px;
+                padding: 20px;
+                color: #bbb;
+                border: 3px solid #bbb;
+                background: transparent;
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+    }
+}

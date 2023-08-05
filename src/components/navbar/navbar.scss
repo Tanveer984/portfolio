@@ -1,0 +1,34 @@
+.navmain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // background-color:gray;
+    height: 100px;
+    .navlogo{
+        // padding: 2rem;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .navlinks{
+        display: flex;
+        // padding: 2rem;
+        align-items: center;
+        gap: 20px;
+        a{
+            font-weight: bold;
+        }
+        a:hover{
+            color: gray;
+        }
+        .navbtn{
+            font-weight: bold;
+                    color: wheat;
+                    background: #54c28b;
+                    border: none;
+                    border-radius: 10px;
+                    padding: 10px;
+                    font-size: 20px;
+                    cursor: pointer;
+        }
+    }
+}

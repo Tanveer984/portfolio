@@ -1,0 +1,30 @@
+.mainTitle{
+    font-size: 80px;
+}
+.portfolioContainer{
+    .title{
+        margin: 20px 2px;
+    }
+    .items{
+        display: flex;
+        gap: 50px;
+        .item{
+            border: 5px solid #bbb;
+            border-radius: 5px;
+            width: 300px;
+            height: 400px;
+            position: relative;
+            border-radius: 10px;
+            .title{
+                position: absolute;
+                right: 10px;
+                bottom: 10px;
+                font-size: 40px;
+                font-weight: bold;
+            }
+            :hover.title{
+                color: #53c28b;
+            }
+        }
+    }
+}

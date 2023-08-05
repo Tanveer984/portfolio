@@ -1,0 +1,39 @@
+.category{
+    .cate_title{
+        color: #53c28b;
+    }
+    .item:nth-child(2n+1){
+        flex-direction: row-reverse;
+    }
+    .item{
+        display: flex;
+        gap: 50px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+
+        .textContainer{
+           display: flex;
+           flex: 1;
+           gap: 20px;
+           justify-content: center;
+           flex-direction: column;
+            .subtitle{
+                font-size: 50px;
+                margin: 20px 0;
+            }
+            .ptext{
+                text-align: justify;
+                font-size: 20px;
+            }
+        }
+        .imageContainer{
+            flex: 1;
+            height: 350px;
+            position: relative;
+            .img{
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        }
+    } 
+}

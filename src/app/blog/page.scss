@@ -1,0 +1,17 @@
+.blogcontainer{
+    .blog_Link_Container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+    .imageContainer{
+        flex: 1;
+        .img{
+            border-radius: 5px;
+        }
+    }
+    .text_parent_container{
+        flex: 2;
+    }
+   } 
+}
